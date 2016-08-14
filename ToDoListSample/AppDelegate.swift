@@ -12,9 +12,11 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var appRouter: AppRouter!
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        appRouter = AppRouter(window: window!)
+        appRouter.start()
         // Override point for customization after application launch.
         return true
     }

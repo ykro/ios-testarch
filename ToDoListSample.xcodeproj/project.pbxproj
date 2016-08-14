@@ -8,20 +8,66 @@
 
 /* Begin PBXBuildFile section */
 		1AF97C491D5E61F600D174B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF97C481D5E61F600D174B4 /* AppDelegate.swift */; };
-		1AF97C4B1D5E61F600D174B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF97C4A1D5E61F600D174B4 /* ViewController.swift */; };
+		1AF97C4B1D5E61F600D174B4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF97C4A1D5E61F600D174B4 /* LoginViewController.swift */; };
 		1AF97C4E1D5E61F600D174B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AF97C4C1D5E61F600D174B4 /* Main.storyboard */; };
 		1AF97C501D5E61F600D174B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AF97C4F1D5E61F600D174B4 /* Assets.xcassets */; };
-		1AF97C531D5E61F600D174B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AF97C511D5E61F600D174B4 /* LaunchScreen.storyboard */; };
+		1AF97C5D1D5E851A00D174B4 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF97C5C1D5E851A00D174B4 /* LoginModel.swift */; };
+		1AF97C5F1D5E857700D174B4 /* LoginModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF97C5E1D5E857700D174B4 /* LoginModelImpl.swift */; };
+		1AF97C611D5E89A200D174B4 /* LoginViewModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF97C601D5E89A200D174B4 /* LoginViewModelImpl.swift */; };
+		1AF97C631D5E8AB900D174B4 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF97C621D5E8AB900D174B4 /* LoginViewModel.swift */; };
+		1AF97C651D5E8F2800D174B4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF97C641D5E8F2800D174B4 /* LoginView.swift */; };
+		1AF97C671D5E90DD00D174B4 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF97C661D5E90DD00D174B4 /* AppRouter.swift */; };
+		1AF97C6A1D5E98D300D174B4 /* ListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF97C691D5E98D300D174B4 /* ListRouter.swift */; };
+		1AF97C6E1D60D51500D174B4 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF97C6D1D60D51500D174B4 /* LoginRouter.swift */; };
+		1AF97C711D60E2E500D174B4 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF97C701D60E2E500D174B4 /* Person.swift */; };
+		1AF97C731D60E34C00D174B4 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF97C721D60E34C00D174B4 /* ListViewController.swift */; };
+		1AF97C771D60E37600D174B4 /* ContentAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF97C761D60E37600D174B4 /* ContentAViewController.swift */; };
+		1AF97C791D60E3BA00D174B4 /* ContentBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF97C781D60E3BA00D174B4 /* ContentBViewController.swift */; };
+		1AF97C7B1D60E8AD00D174B4 /* ContentRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF97C7A1D60E8AD00D174B4 /* ContentRouter.swift */; };
+		1AF97C7F1D60EBA000D174B4 /* ContentAModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF97C7E1D60EBA000D174B4 /* ContentAModel.swift */; };
+		1AF97C811D60ECB700D174B4 /* ContentAPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF97C801D60ECB700D174B4 /* ContentAPresenter.swift */; };
+		1AF97C851D60F75800D174B4 /* ListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF97C841D60F75800D174B4 /* ListService.swift */; };
+		1AF97C871D60F94800D174B4 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF97C861D60F94800D174B4 /* ListView.swift */; };
+		1AF97C891D60F98000D174B4 /* ListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF97C881D60F98000D174B4 /* ListPresenter.swift */; };
+		1AF97C8B1D60FBAC00D174B4 /* ListPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF97C8A1D60FBAC00D174B4 /* ListPresenterImpl.swift */; };
+		1AF97C8D1D60FC0300D174B4 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF97C8C1D60FC0300D174B4 /* ListModel.swift */; };
+		1AF97C8F1D60FD7400D174B4 /* ListModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF97C8E1D60FD7400D174B4 /* ListModelImpl.swift */; };
+		1AF97C951D610BB900D174B4 /* ContentBModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF97C941D610BB900D174B4 /* ContentBModelImpl.swift */; };
+		1AF97C971D610BF500D174B4 /* ContentBPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF97C961D610BF500D174B4 /* ContentBPresenter.swift */; };
+		1AF97C991D610C0500D174B4 /* ContentBProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF97C981D610C0500D174B4 /* ContentBProtocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1AF97C451D5E61F600D174B4 /* ToDoListSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoListSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AF97C481D5E61F600D174B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1AF97C4A1D5E61F600D174B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AF97C4A1D5E61F600D174B4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1AF97C4D1D5E61F600D174B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1AF97C4F1D5E61F600D174B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1AF97C521D5E61F600D174B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AF97C541D5E61F600D174B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AF97C5C1D5E851A00D174B4 /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		1AF97C5E1D5E857700D174B4 /* LoginModelImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModelImpl.swift; sourceTree = "<group>"; };
+		1AF97C601D5E89A200D174B4 /* LoginViewModelImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModelImpl.swift; sourceTree = "<group>"; };
+		1AF97C621D5E8AB900D174B4 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		1AF97C641D5E8F2800D174B4 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		1AF97C661D5E90DD00D174B4 /* AppRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		1AF97C691D5E98D300D174B4 /* ListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListRouter.swift; sourceTree = "<group>"; };
+		1AF97C6D1D60D51500D174B4 /* LoginRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		1AF97C701D60E2E500D174B4 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		1AF97C721D60E34C00D174B4 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		1AF97C761D60E37600D174B4 /* ContentAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentAViewController.swift; sourceTree = "<group>"; };
+		1AF97C781D60E3BA00D174B4 /* ContentBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentBViewController.swift; sourceTree = "<group>"; };
+		1AF97C7A1D60E8AD00D174B4 /* ContentRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentRouter.swift; sourceTree = "<group>"; };
+		1AF97C7E1D60EBA000D174B4 /* ContentAModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentAModel.swift; sourceTree = "<group>"; };
+		1AF97C801D60ECB700D174B4 /* ContentAPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentAPresenter.swift; sourceTree = "<group>"; };
+		1AF97C841D60F75800D174B4 /* ListService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListService.swift; sourceTree = "<group>"; };
+		1AF97C861D60F94800D174B4 /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		1AF97C881D60F98000D174B4 /* ListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListPresenter.swift; sourceTree = "<group>"; };
+		1AF97C8A1D60FBAC00D174B4 /* ListPresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListPresenterImpl.swift; sourceTree = "<group>"; };
+		1AF97C8C1D60FC0300D174B4 /* ListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		1AF97C8E1D60FD7400D174B4 /* ListModelImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListModelImpl.swift; sourceTree = "<group>"; };
+		1AF97C941D610BB900D174B4 /* ContentBModelImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentBModelImpl.swift; sourceTree = "<group>"; };
+		1AF97C961D610BF500D174B4 /* ContentBPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentBPresenter.swift; sourceTree = "<group>"; };
+		1AF97C981D610C0500D174B4 /* ContentBProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentBProtocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +100,93 @@
 		1AF97C471D5E61F600D174B4 /* ToDoListSample */ = {
 			isa = PBXGroup;
 			children = (
+				1AF97C751D60E35F00D174B4 /* ContentB */,
+				1AF97C741D60E35700D174B4 /* ContentA */,
+				1AF97C6F1D60E2CD00D174B4 /* list */,
+				1AF97C681D5E97DF00D174B4 /* router */,
+				1AF97C5A1D5E849C00D174B4 /* login */,
 				1AF97C481D5E61F600D174B4 /* AppDelegate.swift */,
-				1AF97C4A1D5E61F600D174B4 /* ViewController.swift */,
 				1AF97C4C1D5E61F600D174B4 /* Main.storyboard */,
 				1AF97C4F1D5E61F600D174B4 /* Assets.xcassets */,
-				1AF97C511D5E61F600D174B4 /* LaunchScreen.storyboard */,
 				1AF97C541D5E61F600D174B4 /* Info.plist */,
 			);
 			path = ToDoListSample;
+			sourceTree = "<group>";
+		};
+		1AF97C5A1D5E849C00D174B4 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				1AF97C6D1D60D51500D174B4 /* LoginRouter.swift */,
+				1AF97C4A1D5E61F600D174B4 /* LoginViewController.swift */,
+				1AF97C5C1D5E851A00D174B4 /* LoginModel.swift */,
+				1AF97C5E1D5E857700D174B4 /* LoginModelImpl.swift */,
+				1AF97C601D5E89A200D174B4 /* LoginViewModelImpl.swift */,
+				1AF97C621D5E8AB900D174B4 /* LoginViewModel.swift */,
+				1AF97C641D5E8F2800D174B4 /* LoginView.swift */,
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+		1AF97C681D5E97DF00D174B4 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				1AF97C7A1D60E8AD00D174B4 /* ContentRouter.swift */,
+				1AF97C691D5E98D300D174B4 /* ListRouter.swift */,
+				1AF97C661D5E90DD00D174B4 /* AppRouter.swift */,
+			);
+			name = router;
+			sourceTree = "<group>";
+		};
+		1AF97C6F1D60E2CD00D174B4 /* list */ = {
+			isa = PBXGroup;
+			children = (
+				1AF97C911D61041B00D174B4 /* entity */,
+				1AF97C901D61041100D174B4 /* UI */,
+				1AF97C841D60F75800D174B4 /* ListService.swift */,
+				1AF97C8C1D60FC0300D174B4 /* ListModel.swift */,
+				1AF97C8E1D60FD7400D174B4 /* ListModelImpl.swift */,
+			);
+			name = list;
+			sourceTree = "<group>";
+		};
+		1AF97C741D60E35700D174B4 /* ContentA */ = {
+			isa = PBXGroup;
+			children = (
+				1AF97C761D60E37600D174B4 /* ContentAViewController.swift */,
+				1AF97C7E1D60EBA000D174B4 /* ContentAModel.swift */,
+				1AF97C801D60ECB700D174B4 /* ContentAPresenter.swift */,
+			);
+			name = ContentA;
+			sourceTree = "<group>";
+		};
+		1AF97C751D60E35F00D174B4 /* ContentB */ = {
+			isa = PBXGroup;
+			children = (
+				1AF97C781D60E3BA00D174B4 /* ContentBViewController.swift */,
+				1AF97C941D610BB900D174B4 /* ContentBModelImpl.swift */,
+				1AF97C961D610BF500D174B4 /* ContentBPresenter.swift */,
+				1AF97C981D610C0500D174B4 /* ContentBProtocols.swift */,
+			);
+			name = ContentB;
+			sourceTree = "<group>";
+		};
+		1AF97C901D61041100D174B4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1AF97C881D60F98000D174B4 /* ListPresenter.swift */,
+				1AF97C8A1D60FBAC00D174B4 /* ListPresenterImpl.swift */,
+				1AF97C861D60F94800D174B4 /* ListView.swift */,
+				1AF97C721D60E34C00D174B4 /* ListViewController.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		1AF97C911D61041B00D174B4 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				1AF97C701D60E2E500D174B4 /* Person.swift */,
+			);
+			name = entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +247,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AF97C531D5E61F600D174B4 /* LaunchScreen.storyboard in Resources */,
 				1AF97C501D5E61F600D174B4 /* Assets.xcassets in Resources */,
 				1AF97C4E1D5E61F600D174B4 /* Main.storyboard in Resources */,
 			);
@@ -135,8 +259,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AF97C4B1D5E61F600D174B4 /* ViewController.swift in Sources */,
+				1AF97C631D5E8AB900D174B4 /* LoginViewModel.swift in Sources */,
+				1AF97C871D60F94800D174B4 /* ListView.swift in Sources */,
+				1AF97C791D60E3BA00D174B4 /* ContentBViewController.swift in Sources */,
+				1AF97C651D5E8F2800D174B4 /* LoginView.swift in Sources */,
+				1AF97C4B1D5E61F600D174B4 /* LoginViewController.swift in Sources */,
+				1AF97C5D1D5E851A00D174B4 /* LoginModel.swift in Sources */,
+				1AF97C771D60E37600D174B4 /* ContentAViewController.swift in Sources */,
+				1AF97C6A1D5E98D300D174B4 /* ListRouter.swift in Sources */,
+				1AF97C711D60E2E500D174B4 /* Person.swift in Sources */,
+				1AF97C8D1D60FC0300D174B4 /* ListModel.swift in Sources */,
+				1AF97C671D5E90DD00D174B4 /* AppRouter.swift in Sources */,
+				1AF97C991D610C0500D174B4 /* ContentBProtocols.swift in Sources */,
+				1AF97C891D60F98000D174B4 /* ListPresenter.swift in Sources */,
+				1AF97C851D60F75800D174B4 /* ListService.swift in Sources */,
+				1AF97C7B1D60E8AD00D174B4 /* ContentRouter.swift in Sources */,
 				1AF97C491D5E61F600D174B4 /* AppDelegate.swift in Sources */,
+				1AF97C7F1D60EBA000D174B4 /* ContentAModel.swift in Sources */,
+				1AF97C6E1D60D51500D174B4 /* LoginRouter.swift in Sources */,
+				1AF97C8F1D60FD7400D174B4 /* ListModelImpl.swift in Sources */,
+				1AF97C951D610BB900D174B4 /* ContentBModelImpl.swift in Sources */,
+				1AF97C5F1D5E857700D174B4 /* LoginModelImpl.swift in Sources */,
+				1AF97C731D60E34C00D174B4 /* ListViewController.swift in Sources */,
+				1AF97C8B1D60FBAC00D174B4 /* ListPresenterImpl.swift in Sources */,
+				1AF97C971D610BF500D174B4 /* ContentBPresenter.swift in Sources */,
+				1AF97C611D5E89A200D174B4 /* LoginViewModelImpl.swift in Sources */,
+				1AF97C811D60ECB700D174B4 /* ContentAPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,14 +297,6 @@
 				1AF97C4D1D5E61F600D174B4 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1AF97C511D5E61F600D174B4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1AF97C521D5E61F600D174B4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -286,6 +426,7 @@
 				1AF97C591D5E61F600D174B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

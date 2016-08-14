@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoListSample/ContentAPresenter.swift"
+            timestampString = "492892734.159106"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "ContentAPresenterImpl"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoListSample/ContentAPresenter.swift"
+            timestampString = "492892791.244819"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "ContentAPresenterImpl"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ToDoListSample.ContentAPresenterImpl.router.setter : Swift.Optional&lt;ToDoListSample.ContentRouter&gt;"
+                  moduleName = "ToDoListSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ykro/code/iOS/ToDoListSample/ToDoListSample/ContentAPresenter.swift"
+                  timestampString = "492893813.682225"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "518">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ToDoListSample.ContentAPresenterImpl.init () -&gt; ToDoListSample.ContentAPresenterImpl"
+                  moduleName = "ToDoListSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ykro/code/iOS/ToDoListSample/ToDoListSample/ContentAPresenter.swift"
+                  timestampString = "492893813.682427"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "532">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "protocol witness for ToDoListSample.ContentAPresenter.router.getter : Swift.Optional&lt;ToDoListSample.ContentRouter&gt; in conformance ToDoListSample.ContentAPresenterImpl : ToDoListSample.ContentAPresenter in ToDoListSample"
+                  moduleName = "ToDoListSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ykro/code/iOS/ToDoListSample/ToDoListSample/ContentAPresenter.swift"
+                  timestampString = "492893813.682599"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "11">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "protocol witness for ToDoListSample.ContentAPresenter.router.setter : Swift.Optional&lt;ToDoListSample.ContentRouter&gt; in conformance ToDoListSample.ContentAPresenterImpl : ToDoListSample.ContentAPresenter in ToDoListSample"
+                  moduleName = "ToDoListSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ykro/code/iOS/ToDoListSample/ToDoListSample/ContentAPresenter.swift"
+                  timestampString = "492893813.682759"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "protocol witness for ToDoListSample.ContentAPresenter.router.materializeForSet : Swift.Optional&lt;ToDoListSample.ContentRouter&gt; in conformance ToDoListSample.ContentAPresenterImpl : ToDoListSample.ContentAPresenter in ToDoListSample"
+                  moduleName = "ToDoListSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ykro/code/iOS/ToDoListSample/ToDoListSample/ContentAPresenter.swift"
+                  timestampString = "492893813.682955"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoListSample/ListViewController.swift"
+            timestampString = "492899107.742226"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "setData(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoListSample/ListPresenterImpl.swift"
+            timestampString = "492898730.920678"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "getUsers()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
